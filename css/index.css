@@ -1,0 +1,165 @@
+body {
+  background: #f3f5f7;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.fangyi .main-tt {
+  height: 3.5rem;
+}
+.pie-cont {
+  display: flex;
+}
+.pie-cont .pie {
+  flex: 1;
+  margin: 0.2rem;
+  margin-top: 0;
+  overflow: hidden;
+}
+.pie h3 {
+  text-align: center;
+  line-height: 2em;
+  color: #001d44;
+  font-weight: bold;
+}
+.pie .cont {
+  height: 2rem;
+  display: flex;
+}
+.cont h3 {
+  margin-top: 0.4rem;
+  text-align: left;
+}
+.cont p {
+  color: #001d44;
+  font-size: 0.2rem;
+}
+.cont-border {
+  padding: 0.1rem 0;
+  padding-bottom: 0.2rem;
+  margin: 0.2rem;
+  margin-top: 0;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#chinaMap {
+  background: #fff !important;
+  overflow: hidden;
+}
+.total {
+  margin: 0 0.3rem;
+  text-align: center;
+  color: #001d44;
+  font-size: 0.24rem;
+  padding: 0.22rem 0;
+  border: 1px solid #aad2ff;
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+}
+.total .num {
+  margin-left: 10px;
+  margin-right: 3px;
+  color: #0077ff;
+}
+.tit {
+  text-align: center;
+  color: #001d44;
+  font-weight: bold;
+  line-height: 0.6rem;
+}
+.tab {
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.tab p {
+  line-height: 0.6rem;
+  color: #425068;
+  display: inline-block;
+  margin: 0.1rem 0.3rem;
+  font-size: 0.22rem;
+}
+.supply p.active {
+  color: #00cfa8;
+  border-bottom: 2px solid #00cfa8;
+  font-weight: bold;
+}
+.demand p.active {
+  color: #0077ff;
+  border-bottom: 2px solid #0077ff;
+  font-weight: bold;
+}
+.tab-cont {
+  padding: 0 0.38rem;
+}
+.main-cont {
+  border-bottom: 1px solid #ccc;
+}
+.main-cont .text {
+  color: #001d44;
+  font-size: 0.22rem;
+  font-weight: bold;
+  line-height: 0.6rem;
+}
+.main-cont .subText {
+  color: #7a8086;
+  font-size: 0.2rem;
+  line-height: 0.5rem;
+}
+.main-cont .address {
+  font-size: 0.22rem;
+  line-height: 0.5rem;
+  text-align: right;
+}
+.address .icon {
+  display: inline-block;
+  height: 0.22rem;
+  margin-right: 0.3rem;
+}
+.bottom-btn {
+  padding: 0.2rem;
+  text-align: right;
+  margin-top: 0.2rem;
+}
+.bottom-btn a {
+  color: #fff;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 04rem;
+  margin: 0.2rem;
+}
+.demand-cont .main-cont {
+  overflow: hidden;
+}
+.demand-cont .address {
+  text-align: left;
+}
+.demand-left {
+  color: #001d44;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  width: 30%;
+  border: 1px solid #0077ff;
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 0.24rem;
+}
+.demand-num {
+  color: #0077ff;
+  margin-right: 4px;
+}
+.demand-right {
+  width: 60%;
+  float: right;
+}
+.m-con {
+  padding: 0 0.2rem;
+}
+.fs3 {
+  font-size: 0.3rem !important;
+}
